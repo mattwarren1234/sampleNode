@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-var routes = require('./routes/index');
+var routes = require('./routes.js');
 var app = express();
 
 // uncomment after placing your favicon in /public
